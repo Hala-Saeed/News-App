@@ -1,0 +1,29 @@
+{
+  "project_info": {
+    "project_number": "938680002006",
+    "project_id": "news-app-task-364fe",
+    "storage_bucket": "news-app-task-364fe.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:938680002006:android:da1ae54780e7fbd34df077",
+        "android_client_info": {
+          "package_name": "com.example.news_app_task"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyCPFGGX6Zr3R-HYtmlqMHCzV6dHCtmX3JA"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
