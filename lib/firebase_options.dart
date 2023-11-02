@@ -50,19 +50,10 @@ class DefaultFirebaseOptions {
   }
 
   static const FirebaseOptions android = FirebaseOptions(
-    apiKey: 'AIzaSyCPFGGX6Zr3R-HYtmlqMHCzV6dHCtmX3JA',
-    appId: '1:938680002006:android:da1ae54780e7fbd34df077',
-    messagingSenderId: '938680002006',
-    projectId: 'news-app-task-364fe',
-    storageBucket: 'news-app-task-364fe.appspot.com',
+    
   );
 
   static const FirebaseOptions ios = FirebaseOptions(
-    apiKey: 'AIzaSyBGgZEd7GXE01nEXFXi2PYlOVfdn2xFr9w',
-    appId: '1:938680002006:ios:f0f14fc5876d140d4df077',
-    messagingSenderId: '938680002006',
-    projectId: 'news-app-task-364fe',
-    storageBucket: 'news-app-task-364fe.appspot.com',
-    iosBundleId: 'com.example.newsAppTask',
+
   );
 }
