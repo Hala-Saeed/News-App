@@ -11,7 +11,7 @@ class NewsRepo{
     try{
       String url;
 
-         url = 'https://newsapi.org/v2/top-headlines?sources=$sourceName&apiKey=5e245919e9714f46a517d8b0e1e027c1';
+         url = 'https://newsapi.org/v2/top-headlines?sources=$sourceName&apiKey=YOUR-API-KEY';
 
       final response = await http.get(Uri.parse(url));
       if(response.statusCode == 200){
@@ -36,7 +36,7 @@ class NewsRepo{
     try{
       String url;
 
-      url = 'https://newsapi.org/v2/everything?q=general&apiKey=5e245919e9714f46a517d8b0e1e027c1';
+      url = 'https://newsapi.org/v2/everything?q=general&apiKey=YOUR-API-KEY';
 
       final response = await http.get(Uri.parse(url));
       if(response.statusCode == 200){
